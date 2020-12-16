@@ -86,7 +86,7 @@ def go_right():
 # Game ending
 def end_game(Current_lives):
     global game_still_going
-    if Current_lives < 0:
+    if Current_lives < 1:
         game_still_going = False
         screen.clear()
 
