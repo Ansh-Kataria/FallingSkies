@@ -170,14 +170,6 @@ message.bgpic("game_over.gif")
 message.setup(width=500, height=364)
 message.tracer(0)
 
-# Score printing
-pen2 = turtle.Turtle()
-pen2.speed(0)
-pen2.hideturtle()
-pen2.shape("square")
-pen2.color("white")
-pen2.penup()
-pen2.write("Score: {} Lives: {} ".format(score, lives), align="center", font=("courier", 24, "normal"))
 while True:
     # updating the screen
     message.update()
